@@ -2,7 +2,7 @@ package org.example
 
 import com.google.gson.annotations.SerializedName
 
-class Game(
+data class Game(
     val title:String,
     val cover:String) {
 
